@@ -33,7 +33,7 @@
 **Robotics & AI Algorithms | 机器人与 AI 算法**
 
 ![Diffusion Policy](https://img.shields.io/badge/Algorithm-Diffusion_Policy-FFD700?style=for-the-badge)
-![Flow Matching](https://img.shields.io/badge/Algorithm-Flow_Matching-lightgrey?style=for-the-badge)
+![Flow Matching](https://img.shields.io/badge/Algorithm-Flow_Matching-FFD700?style=for-the-badge)
 ![VLA](https://img.shields.io/badge/Architecture-VLA-FF69B4?style=for-the-badge) 
 ![PPO](https://img.shields.io/badge/RL-PPO-green?style=for-the-badge) 
 ![IQL](https://img.shields.io/badge/RL-IQL-green?style=for-the-badge) ![V-JEPA2](https://img.shields.io/badge/World_Model-V--JEPA2-orange?style=for-the-badge)
