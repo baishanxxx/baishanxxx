@@ -12,8 +12,10 @@
 
 **Programming & Frameworks | 编程与框架**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-e25c0d?style=for-the-badge&logo=mathworks&logoColor=white) 
+
 **Robotics & AI Algorithms | 机器人与 AI 算法**
 ![Diffusion Policy](https://img.shields.io/badge/Algorithm-Diffusion_Policy-FFD700?style=for-the-badge) ![VLA](https://img.shields.io/badge/Architecture-VLA-FF69B4?style=for-the-badge) ![PPO](https://img.shields.io/badge/RL-PPO-green?style=for-the-badge) ![IQL](https://img.shields.io/badge/RL-IQL-green?style=for-the-badge) ![V-JEPA2](https://img.shields.io/badge/World_Model-V--JEPA2-orange?style=for-the-badge)
+
 **Simulation & Design | 仿真与设计**
 ![MuJoCo](https://img.shields.io/badge/Simulation-MuJoCo-blue?style=for-the-badge) ![Isaac Gym](https://img.shields.io/badge/Simulation-Isaac_Gym-blue?style=for-the-badge) ![PyBullet](https://img.shields.io/badge/Simulation-PyBullet-blue?style=for-the-badge) ![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks-red?style=for-the-badge) 
 
