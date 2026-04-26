@@ -8,6 +8,14 @@
 
 **ZH:** 专注于具身智能与多模态机器人学习。开发用于长视距任务规划的视觉-语言-动作 (VLA) 架构。研究闭环反馈与自主纠错，以提高端到端策略在复杂动态环境中的鲁棒性。
 
+#### 1. Adversarial Diffusion Policy for Observation-Based Learning
+[![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
+
+- **Summary:** Proposed a framework combining Conditional Diffusion Models with GANs to recover manipulation policies from vision-only expert sequences. / 提出了一种结合条件扩散模型与生成对抗网络的框架，用于从纯视觉专家序列中恢复操作策略。
+- 
+#### 2. Whole-Body Control of a Mobile Legged Manipulator
+[![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
+
 ### 🛠 Tech Stack | 技能栈
 
 **Programming & Frameworks | 编程与框架**
