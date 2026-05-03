@@ -56,15 +56,29 @@
 > **EN:** An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
 > **ZH:** 一个融合了底层高动态运动控制（强化学习）与顶层多模态感知接口（扩散策略）的具身部署框架。
 
+**High-Dynamic Locomotion (高动态运动控制):**
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/target_2.gif" width="45%" alt="Target Tracking"/>
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/jump_1.gif" width="45%" alt="High Dynamic Backflip"/>
 </div>
+
+* **RL-based Control (强化学习控制):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym. (在 Isaac Gym 中通过 PPO 实现了全身 6D 目标追踪与高动态后空翻。)
+
+**Visuomotor Manipulation & Architecture (视觉精细操作与系统架构):**
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_video_1.gif" width="45%" alt="Real-world Execution"/>
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_inference.gif" width="45%" alt="Policy Inference"/>
 </div>
 
+* **Diffusion Policy (扩散策略操作):** End-to-end mapping from raw visual input to motor commands using Diffusion Policy. (利用扩散策略构建了从原始视觉输入到电机指令的端到端映射。)
+* **Asynchronous System (异步解耦架构):** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**. (设计了异步解耦架构，将推理延迟降低至 0.01s 以下，确保实时响应。)
+
+---
+<div align="center">
+<i>For comprehensive project details, mathematical formulations, and publications, please view my <a href="#">Curriculum Vitae</a>.</i>
+</div>
 * **High-Dynamic Locomotion (高动态控制):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym. (在 Isaac Gym 中通过 PPO 实现了全身 6D 目标追踪与高动态后空翻。)
 * **Visuomotor Manipulation (视觉精细操作):** End-to-end mapping from raw visual input to motor commands using Diffusion Policy. (利用扩散策略构建了从原始视觉输入到电机指令的端到端映射。)
 * **Architecture (系统架构):** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**. (设计了异步解耦架构，将推理延迟降低至 0.01s 以下，确保实时响应。)
