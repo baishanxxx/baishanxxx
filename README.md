@@ -30,20 +30,20 @@
 **Traditional IL vs. Our IfO Pipeline (传统模仿学习与我们的 IfO 管线对比):**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method.png" width="80%" alt="Traditional IL vs. Our IfO Pipeline"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method.png" width="60%" alt="Traditional IL vs. Our IfO Pipeline"/>
 </div>
 
 **Architecture vs. Performance (架构原理与效果演示):**
 
 <div align="center">
   <p><i>Pathway 1: Adversarial Discriminator (对抗判别器机制)</i></p>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method1.png" width="55%" alt="Adversarial Architecture"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method1.png" width="40%" alt="Adversarial Architecture"/>
   <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="20%" alt="Adversarial Demo"/>
 </div>
 
 <div align="center">
   <p><i>Pathway 2: Feature MSE Baseline (特征均方误差基线)</i></p>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method2.png" width="55%" alt="MSE Architecture"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method2.png" width="40%" alt="MSE Architecture"/>
   <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="20%" alt="MSE Demo"/>
 </div>
 
@@ -59,8 +59,8 @@
 **High-Dynamic Locomotion (高动态运动控制):**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/target_2.gif" width="45%" alt="Target Tracking"/>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/jump_1.gif" width="45%" alt="High Dynamic Backflip"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/target_2.gif" width="40%" alt="Target Tracking"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/jump_1.gif" width="40%" alt="High Dynamic Backflip"/>
 </div>
 
 * **RL-based Control (强化学习控制):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym. (在 Isaac Gym 中通过 PPO 实现了全身 6D 目标追踪与高动态后空翻。)
@@ -68,8 +68,8 @@
 **Visuomotor Manipulation & Architecture (视觉精细操作与系统架构):**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_video_1.gif" width="45%" alt="Real-world Execution"/>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_inference.gif" width="45%" alt="Policy Inference"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_video_1.gif" width="40%" alt="Real-world Execution"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_inference.gif" width="40%" alt="Policy Inference"/>
 </div>
 
 * **Diffusion Policy (扩散策略操作):** End-to-end mapping from raw visual input to motor commands using Diffusion Policy. (利用扩散策略构建了从原始视觉输入到电机指令的端到端映射。)
