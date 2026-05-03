@@ -21,7 +21,7 @@
 
 ### 🔥 Featured Projects | 精选项目
 
-#### 1. Adversarial Diffusion Policy for Observation-Based Learning | 基于观测学习的对抗扩散策略
+### **1. Adversarial Diffusion Policy for Observation-Based Learning | 基于观测学习的对抗扩散策略**
 ![Status](https://img.shields.io/badge/Status-In_Preparation-blue) [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
 
 > **EN:** A novel Imitation Learning from Observation (IfO) framework recovering robust manipulation policies exclusively from vision-only expert sequences, eliminating the need for explicit action supervision.
@@ -55,7 +55,7 @@
 
 <br>
 
-#### 2. Whole-Body Control of a Mobile Legged Manipulator | 移动腿足机械臂的全身控制
+### **2. Whole-Body Control of a Mobile Legged Manipulator | 移动腿足机械臂的全身控制**
 ![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
 
 > **EN:** An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
