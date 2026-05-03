@@ -8,6 +8,17 @@
 
 **ZH:** 专注于具身智能与多模态机器人学习。开发用于长视距任务规划的视觉-语言-动作 (VLA) 架构。研究闭环反馈与自主纠错，以提高端到端策略在复杂动态环境中的鲁棒性。
 
+### 🛠 Tech Stack | 技能栈
+
+**Programming & Frameworks (编程与框架):**
+`Python` `C++` `PyTorch` `ROS/ROS2` `OpenCV` `MATLAB`
+
+**Robotics & AI Algorithms (机器人与 AI 算法):**
+`Diffusion Policy` `Flow Matching` `VLA (Vision-Language-Action)` `PPO` `IQL` `V-JEPA2`
+
+**Simulation & Design (仿真与设计):**
+`MuJoCo` `Isaac Gym` `PyBullet` `robosuite` `SolidWorks` `AutoCAD`
+
 #### 1. Adversarial Diffusion Policy for Observation-Based Learning  | 基于观察学习的对抗扩散策略
 [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
 
@@ -18,31 +29,40 @@
 
 - **Summary:** Integrating RL-based High-Dynamic Locomotion and Diffusion Policy-based Visuomotor Manipulation via an asynchronous architecture. / 融合基于强化学习的高动态运动控制与基于扩散策略的视觉精细操作，并通过异步架构实现极低延迟部署。
 
-### 🛠 Tech Stack | 技能栈
+### 🔥 Featured Projects 
 
-**Programming & Frameworks | 编程与框架**
+#### 1. Adversarial Diffusion Policy for Observation-Based Learning
+![Status](https://img.shields.io/badge/Status-In_Preparation-blue) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) 
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) 
-![MATLAB](https://img.shields.io/badge/MATLAB-e25c0d?style=for-the-badge&logo=mathworks&logoColor=white) 
-![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white) 
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
+> A novel Imitation Learning from Observation (IfO) framework recovering robust manipulation policies exclusively from vision-only expert sequences, eliminating the need for explicit action supervision.
 
-**Robotics & AI Algorithms | 机器人与 AI 算法**
+<div align="center">
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="45%" alt="Adversarial Discriminator Agent"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="45%" alt="Feature MSE Agent"/>
+</div>
 
-![Diffusion Policy](https://img.shields.io/badge/IL-Diffusion_Policy-FFD700?style=for-the-badge)
-![Flow Matching](https://img.shields.io/badge/IL-Flow_Matching-FFD700?style=for-the-badge)
-![VLA](https://img.shields.io/badge/Architecture-VLA-FF69B4?style=for-the-badge) 
-![PPO](https://img.shields.io/badge/RL-PPO-green?style=for-the-badge) 
-![IQL](https://img.shields.io/badge/RL-IQL-green?style=for-the-badge) ![V-JEPA2](https://img.shields.io/badge/World_Model-V--JEPA2-orange?style=for-the-badge)
+* **Core Method:** Combined Conditional Diffusion Models with GANs (Visual-feature Discriminator as reward generator).
+* **Key Results:** Achieved an **85% success rate** on `robomimic lift` (MuJoCo), retaining 91% of the performance of a fully action-supervised expert baseline.
 
-**Simulation & Design | 仿真与设计**
+#### 2. Whole-Body Control of a Mobile Legged Manipulator
+![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
 
-![MuJoCo](https://img.shields.io/badge/Simulation-MuJoCo-blue?style=for-the-badge) 
-![Isaac Gym](https://img.shields.io/badge/Simulation-Isaac_Gym-blue?style=for-the-badge) 
-![PyBullet](https://img.shields.io/badge/Simulation-PyBullet-blue?style=for-the-badge) 
-![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks-red?style=for-the-badge) 
+> An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/target_2.gif" width="45%" alt="Target Tracking"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/jump_1.gif" width="45%" alt="High Dynamic Backflip"/>
+</div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_video_1.gif" width="45%" alt="Real-world Execution"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_inference.gif" width="45%" alt="Policy Inference"/>
+</div>
 
+* **High-Dynamic Locomotion (RL):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym.
+* **Visuomotor Manipulation:** End-to-end mapping from raw visual input to motor commands using Diffusion Policy.
+* **Architecture:** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**.
+
+---
+<div align="center">
+<i>For comprehensive project details, mathematical formulations, and publications, please view my <a href="#">Curriculum Vitae</a>.</i>
+</div>
