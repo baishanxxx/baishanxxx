@@ -19,23 +19,19 @@
 **Simulation & Design (仿真与设计):**
 `MuJoCo` `Isaac Gym` `PyBullet` `robosuite` `SolidWorks` `AutoCAD`
 
-#### 1. Adversarial Diffusion Policy for Observation-Based Learning  | 基于观察学习的对抗扩散策略
-[![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
-
-- **Summary:** Proposed a framework combining Conditional Diffusion Models with GANs to recover manipulation policies from vision-only expert sequences. / 提出了一种结合条件扩散模型与生成对抗网络的框架，用于从纯视觉专家序列中恢复操作策略。
-  
-#### 2. Whole-Body Control of a Mobile Legged Manipulator| 移动腿足机械臂的全身控制
-[![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
-
-- **Summary:** Integrating RL-based High-Dynamic Locomotion and Diffusion Policy-based Visuomotor Manipulation via an asynchronous architecture. / 融合基于强化学习的高动态运动控制与基于扩散策略的视觉精细操作，并通过异步架构实现极低延迟部署。
-
 ### 🔥 Featured Projects | 精选项目
 
 #### 1. Adversarial Diffusion Policy for Observation-Based Learning | 基于观测学习的对抗扩散策略
-![Status](https://img.shields.io/badge/Status-In_Preparation-blue) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
+![Status](https://img.shields.io/badge/Status-In_Preparation-blue) [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
 
 > **EN:** A novel Imitation Learning from Observation (IfO) framework recovering robust manipulation policies exclusively from vision-only expert sequences, eliminating the need for explicit action supervision.
 > **ZH:** 一个仅利用纯视觉专家序列即可恢复稳健操作策略的新型模仿学习框架，完全无需显式的动作监督数据。
+
+**Traditional IL vs. Our IfO Pipeline (传统模仿学习与我们的 IfO 管线对比):**
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method.png" width="80%" alt="Traditional IL vs. Our IfO Pipeline"/>
+</div>
 
 **Architecture vs. Performance (架构原理与效果演示):**
 
@@ -55,7 +51,7 @@
 * **Key Results (关键结果):** Achieved an **85% success rate** on `robomimic lift`, retaining 91% of the performance of a fully action-supervised expert baseline. (在 `robomimic lift` 任务中达到 **85% 成功率**，保留了完全监督专家基线 91% 的性能。)
 
 #### 2. Whole-Body Control of a Mobile Legged Manipulator | 移动腿足机械臂的全身控制
-![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
+![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
 
 > **EN:** An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
 > **ZH:** 一个融合了底层高动态运动控制（强化学习）与顶层多模态感知接口（扩散策略）的具身部署框架。
