@@ -76,14 +76,3 @@
 * **Asynchronous System (异步解耦架构):** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**. (设计了异步解耦架构，将推理延迟降低至 0.01s 以下，确保实时响应。)
 
 ---
-<div align="center">
-<i>For comprehensive project details, mathematical formulations, and publications, please view my <a href="#">Curriculum Vitae</a>.</i>
-</div>
-* **High-Dynamic Locomotion (高动态控制):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym. (在 Isaac Gym 中通过 PPO 实现了全身 6D 目标追踪与高动态后空翻。)
-* **Visuomotor Manipulation (视觉精细操作):** End-to-end mapping from raw visual input to motor commands using Diffusion Policy. (利用扩散策略构建了从原始视觉输入到电机指令的端到端映射。)
-* **Architecture (系统架构):** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**. (设计了异步解耦架构，将推理延迟降低至 0.01s 以下，确保实时响应。)
-
----
-<div align="center">
-<i>For comprehensive project details, mathematical formulations, and publications, please view my <a href="#">Curriculum Vitae</a>.</i>
-</div>
