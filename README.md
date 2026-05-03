@@ -29,25 +29,36 @@
 
 - **Summary:** Integrating RL-based High-Dynamic Locomotion and Diffusion Policy-based Visuomotor Manipulation via an asynchronous architecture. / 融合基于强化学习的高动态运动控制与基于扩散策略的视觉精细操作，并通过异步架构实现极低延迟部署。
 
-### 🔥 Featured Projects 
+### 🔥 Featured Projects | 精选项目
 
-#### 1. Adversarial Diffusion Policy for Observation-Based Learning
+#### 1. Adversarial Diffusion Policy for Observation-Based Learning | 基于观测学习的对抗扩散策略
 ![Status](https://img.shields.io/badge/Status-In_Preparation-blue) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Adversarial-Diffusion-Policy)
 
-> A novel Imitation Learning from Observation (IfO) framework recovering robust manipulation policies exclusively from vision-only expert sequences, eliminating the need for explicit action supervision.
+> **EN:** A novel Imitation Learning from Observation (IfO) framework recovering robust manipulation policies exclusively from vision-only expert sequences, eliminating the need for explicit action supervision.
+> **ZH:** 一个仅利用纯视觉专家序列即可恢复稳健操作策略的新型模仿学习框架，完全无需显式的动作监督数据。
+
+**Architecture vs. Performance (架构原理与效果演示):**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="45%" alt="Adversarial Discriminator Agent"/>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="45%" alt="Feature MSE Agent"/>
+  <p><i>Pathway 1: Adversarial Discriminator (对抗判别器机制)</i></p>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method1.png" width="55%" alt="Adversarial Architecture"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="35%" alt="Adversarial Demo"/>
 </div>
 
-* **Core Method:** Combined Conditional Diffusion Models with GANs (Visual-feature Discriminator as reward generator).
-* **Key Results:** Achieved an **85% success rate** on `robomimic lift` (MuJoCo), retaining 91% of the performance of a fully action-supervised expert baseline.
+<div align="center">
+  <p><i>Pathway 2: Feature MSE Baseline (特征均方误差基线)</i></p>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method2.png" width="55%" alt="MSE Architecture"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="35%" alt="MSE Demo"/>
+</div>
 
-#### 2. Whole-Body Control of a Mobile Legged Manipulator
+* **Core Method (核心方法):** Combined Conditional Diffusion Models with GANs, using a visual-feature discriminator to evaluate and align predicted observation sequences. (结合条件扩散模型与生成对抗网络，利用视觉特征判别器评估并对齐预测的观测序列。)
+* **Key Results (关键结果):** Achieved an **85% success rate** on `robomimic lift`, retaining 91% of the performance of a fully action-supervised expert baseline. (在 `robomimic lift` 任务中达到 **85% 成功率**，保留了完全监督专家基线 91% 的性能。)
+
+#### 2. Whole-Body Control of a Mobile Legged Manipulator | 移动腿足机械臂的全身控制
 ![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/Code-View_Repo-orange?logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
 
-> An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
+> **EN:** An embodied deployment framework integrating low-level high-dynamic motion control (RL) and high-level multi-modal perception interfaces (Diffusion Policy).
+> **ZH:** 一个融合了底层高动态运动控制（强化学习）与顶层多模态感知接口（扩散策略）的具身部署框架。
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/target_2.gif" width="45%" alt="Target Tracking"/>
@@ -58,9 +69,9 @@
   <img src="https://raw.githubusercontent.com/baishanxxx/Mobile-Legged-Manipulator/main/assets/button_inference.gif" width="45%" alt="Policy Inference"/>
 </div>
 
-* **High-Dynamic Locomotion (RL):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym.
-* **Visuomotor Manipulation:** End-to-end mapping from raw visual input to motor commands using Diffusion Policy.
-* **Architecture:** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**.
+* **High-Dynamic Locomotion (高动态控制):** Implemented whole-body 6D target tracking and high-dynamic backflips via PPO in Isaac Gym. (在 Isaac Gym 中通过 PPO 实现了全身 6D 目标追踪与高动态后空翻。)
+* **Visuomotor Manipulation (视觉精细操作):** End-to-end mapping from raw visual input to motor commands using Diffusion Policy. (利用扩散策略构建了从原始视觉输入到电机指令的端到端映射。)
+* **Architecture (系统架构):** Designed an asynchronous decoupled system (1Hz inference, 50Hz+ execution), reducing inference latency to **< 0.01s**. (设计了异步解耦架构，将推理延迟降低至 0.01s 以下，确保实时响应。)
 
 ---
 <div align="center">
