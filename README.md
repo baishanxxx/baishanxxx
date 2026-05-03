@@ -38,13 +38,13 @@
 <div align="center">
   <p><i>Pathway 1: Adversarial Discriminator (对抗判别器机制)</i></p>
   <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method1.png" width="55%" alt="Adversarial Architecture"/>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="35%" alt="Adversarial Demo"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video1_1.gif" width="20%" alt="Adversarial Demo"/>
 </div>
 
 <div align="center">
   <p><i>Pathway 2: Feature MSE Baseline (特征均方误差基线)</i></p>
   <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/method2.png" width="55%" alt="MSE Architecture"/>
-  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="35%" alt="MSE Demo"/>
+  <img src="https://raw.githubusercontent.com/baishanxxx/Adversarial-Diffusion-Policy/main/assets/video2_1.gif" width="20%" alt="MSE Demo"/>
 </div>
 
 * **Core Method (核心方法):** Combined Conditional Diffusion Models with GANs, using a visual-feature discriminator to evaluate and align predicted observation sequences. (结合条件扩散模型与生成对抗网络，利用视觉特征判别器评估并对齐预测的观测序列。)
