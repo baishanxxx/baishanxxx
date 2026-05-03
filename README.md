@@ -49,6 +49,11 @@
 
 * **Core Method (核心方法):** Combined Conditional Diffusion Models with GANs, using a visual-feature discriminator to evaluate and align predicted observation sequences. (结合条件扩散模型与生成对抗网络，利用视觉特征判别器评估并对齐预测的观测序列。)
 * **Key Results (关键结果):** Achieved an **85% success rate** on `robomimic lift`, retaining 91% of the performance of a fully action-supervised expert baseline. (在 `robomimic lift` 任务中达到 **85% 成功率**，保留了完全监督专家基线 91% 的性能。)
+<br>
+
+---
+
+<br>
 
 #### 2. Whole-Body Control of a Mobile Legged Manipulator | 移动腿足机械臂的全身控制
 ![Status](https://img.shields.io/badge/Status-In_Preparation-blue) ![Hardware](https://img.shields.io/badge/Hardware-Unitree_Go2_+_Arm-lightgrey) [![View Repository](https://img.shields.io/badge/View_Project_Details-Click_Here-blue?style=for-the-badge&logo=github)](https://github.com/baishanxxx/Mobile-Legged-Manipulator)
